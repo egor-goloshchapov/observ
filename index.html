@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazy Load Images</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="image-container">
+    <img data-src="https://www.hhs1.com/hubfs/carrots%20on%20wood-1.jpg" alt="Фото 1" class="lazy-load placeholder">
+    <button class="load-btn">Завантажити</button>
+  </div>
+
+  <div class="image-container">
+    <img data-src="https://www.kew.org/sites/default/files/styles/original/public/2025-01/many-potatoes-solanum-tuberosum.jpg.webp?itok=RhcGjOE3" alt="Фото 2" class="lazy-load placeholder">
+    <button class="load-btn">Завантажити</button>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
